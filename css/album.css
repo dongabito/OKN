@@ -1,0 +1,119 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.magassag {
+  min-height: 160px;
+}
+
+.ped {
+  background-color: #f36f21;
+  color: white;
+  min-height: 100px;
+}
+
+.budai {
+  background-color: #85c440;
+  color: white;
+  min-height: 100px;
+}
+
+.meszoly {
+  background-color: #73bddc;
+  color: white;
+  min-height: 100px;
+}
+
+.szena {
+  background-color: #986b38;
+  color: white;
+  min-height: 100px;
+}
+
+.szenahir {
+  border: #986b38 solid 1px;
+  min-height: 100px;
+}
+
+.tolnai {
+  background-color: #006cb8;
+  color: white;
+  min-height: 100px;
+}
+
+.zsolt {
+  background-color: #b355a0;
+  color: white;
+  min-height: 100px;
+}
+
+.kozpont {
+  background-color: #009098;
+  color: white;
+  min-height: 100px;
+}
+
+.kozponthir {
+  border: #009098 solid 1px;
+
+  min-height: 100px;
+}
+
+.kkozpont {
+  background-color: #009098;
+  color: white;
+}
+
+.fomenu li a:any-link{
+  font-size: medium;
+  font-weight: 700;
+  color: #024447;
+}
+
+.fomenu li a:hover {
+  font-weight: 700;
+  background-color: #c54428;
+  color: #a0f5fa;
+}
+
+.active a {
+  font-weight: 700;
+
+  background-color: #fdeb99;
+  color: #a0f5fa;
+}
+
